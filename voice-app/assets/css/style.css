@@ -1,0 +1,264 @@
+/*----------------------------
+Components  Styles
+------------------------------*/
+
+body{
+  font-family: Poppins, sans-serif;
+}
+
+.bg-img{
+  background: url(../img/background.png);
+}
+
+.conten-box{
+  width: 342px;
+  height: 550px;
+  border-radius: 16px;
+  margin-top: 32px;
+  margin-bottom: 0px;
+  border: 0.5px solid rgba(255,255,255,0.01);
+  filter: blur(0px);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  background: linear-gradient(rgba(30,30,30,0.9), rgba(30,30,30,0.24));
+
+}
+
+.pri-btn-out{
+  border-radius: 16px;
+  padding: 12px 40px;
+  width: 200px;
+  height: 48px;
+  background: rgba(255,255,255,0.02);
+  border: 1px solid #970405;
+}
+
+.pri-btn-out:hover{
+  background: rgba(255,255,255,0.02) !important;
+  border: 1px solid #970405 !important;
+}
+/*----------------------------
+Header section
+------------------------------*/
+
+.header-h1{
+  font-size: 28px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 24px;
+}
+
+.header-p{
+  font-size: 11px;
+  text-align: left;
+  margin-top: -8px;
+  color: #ffffff;
+}
+
+.voice-img{
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
+/*----------------------------
+Input box & form
+------------------------------*/
+
+.input-box-out{
+  background: #100a0a;
+  border-color: #d94747;
+  height: 48px;
+  border-radius: 16px;
+  width: 310px;
+}
+
+.input-box-inner{
+  margin-right: 8px;
+  background: #100a0a;
+  border-width: 0px;
+  color: rgb(255,255,255);
+}
+
+::placeholder { 
+  color: #606060 !important;
+  opacity: 1; 
+}
+
+/*----------------------------
+Index Page
+------------------------------*/
+
+.bgsplash{
+  background: #100a0a;
+  font-family: Poppins, sans-serif;
+}
+.logobox{
+  display: block;
+  position: relative;
+  margin-top: 120px;
+  --bs-primary: #970405;
+  --bs-primary-rgb: 151,4,5;
+  --bs-dark: #100a0a;
+  --bs-dark-rgb: 16,10,10;
+  --bs-light: #fefdfd;
+  --bs-light-rgb: 254,253,253;
+}
+
+.pri-button {
+
+  background: linear-gradient(86deg, #d94747, #a10000);
+  border-style: none !important; 
+  border-radius: 16px !important; 
+  padding: 12px 40px !important;
+  margin-top: auto;
+  box-shadow: 0px 8px 50px rgba(0,0,0,0.5);
+  }
+  
+.copyright-txt{
+  width: 300px;
+  position: relative;
+  display: inline-block;
+  margin-top: 24px;
+  font-size: 12px;
+}
+
+.hr{
+  color: rgb(255,255,255);
+  width: 250px;
+  background: linear-gradient(black, white);
+}
+
+/*----------------------------
+NAV bar Footer
+------------------------------*/
+
+.nav-item{
+  height: 84px;
+  background: #100a0a;
+}
+
+.active-lint-txt{
+  color: #ffffff;
+  background: #ab0102;
+  padding-top: 2px;
+  padding-right: 6px;
+  padding-bottom: 2px;
+  padding-left: 6px;
+  font-size: 12px;
+  border-radius: 12px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+.inavtice-icon{
+  color: #ffffff;
+  margin-top: 4px;
+  height: 16px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.active-icon{
+  color: #ab0102;margin-top: 4px;
+}
+
+
+/*----------------------------
+Login Page
+------------------------------*/
+
+.forgot-pass{
+  font-size: 12px;
+  margin-top: 0px;
+  padding-top: 4px;
+  border-color: rgb(248, 249, 250);
+  border-top-color: rgb(248,;border-right-color: 249,;border-bottom-color: 250);
+  border-left-color: 249,;
+  width: 310px;
+  text-align: center;
+  
+}
+
+.social-ico{
+  width: 120px;
+  height: 48px;
+  background: #100a0a;
+  border-radius: 16px;
+  border-width: 1px;
+  border-color: #31292a;
+  margin-left: 24px;
+}
+
+/*----------------------------
+Signup Page
+------------------------------*/
+
+/*----------------------------
+Home Page
+------------------------------*/
+
+/*----------------------------
+vote Page
+------------------------------*/
+
+.vote-heading{
+  margin-top: 0px;
+  padding-right: 0px;
+  background: url(../img/Contestant.png);
+  width: 342px;
+  height: 300px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 130px;
+  border-bottom-left-radius: 130px;
+}
+
+.vote-p{
+  --bs-secondary: #BBBBBB;
+  --bs-secondary-rgb: 187,187,187;
+  text-align: center;
+}
+
+.vote-btn{
+  background: linear-gradient(86deg, #d94747, #a10000);
+  border-style: none;
+  border-radius: 16px;
+  padding: 12px 40px;margin-top: 0px;
+}
+
+/*----------------------------
+Leaderboard Page
+------------------------------*/
+
+.leader-bar{
+  background: #100a0a;
+  border-radius: 45px;
+  margin: 8px;
+}
+
+.leader-name{
+  font-size: 16px;
+  padding-top: 14px;
+}
+
+.leader-vote{
+  font-size: 16px;
+  color: #ffffff;
+  align-items: center;
+  vertical-align: middle;
+}
+/*----------------------------
+User Page
+------------------------------*/
+
+.user-pro-img{
+  width: 32px;
+  height: 32px;
+  background: #ab0102;
+  border-radius: 9px;
+  margin-top: 56px;
+  margin-right: 0px;
+  margin-left: -20px;
+  align-items: center;
+}
